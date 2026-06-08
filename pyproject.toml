@@ -5,16 +5,21 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.12.12"
 dependencies = [
+    "catboost>=1.2.10",
+    "imblearn>=0.0",
     "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
+    "lightgbm>=4.6.0",
     "matplotlib>=3.10.8",
     "openpyxl>=3.1.5",
+    "optuna>=4.8.0",
     "pandas==2.3",
     "pyarrow>=23.0.1",
     "ruff>=0.15.6",
     "scikit-learn==1.7.2",
     "seaborn>=0.13.2",
     "sqlalchemy>=2.0.46",
+    "xgboost>=3.2.0",
 ]
 
 [tool.uv]
